@@ -9,12 +9,16 @@
   <body>
     <form id="imc-form">
       <label for="altura">Altura:</label>
-      <input type="number" placeholder="Digite sua altura" required />
+      <input type="number" id="altura" placeholder="Digite sua altura" step="0.01" required />
 
-      <label for="altura">Peso:</label>
-      <input type="number" placeholder="Digite seu Peso" required />
+      <label for="peso">Peso:</label>
+      <input type="number" id="peso" placeholder="Digite seu Peso" required />
 
       <button type="submit">Enviar</button>
+
+      <h2>Resultado:</h2>
+      <p id="resultado"></p>
     </form>
+    <script src="script.js"></script>
   </body>
 </html>
